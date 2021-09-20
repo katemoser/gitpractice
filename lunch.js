@@ -20,6 +20,13 @@ garden = [
     [9, 3, 0, 4, 2, 0, 3],
 ]
 
+garden2 =[
+    [3,6,8,4,2],
+    [0,2,5,1,0],
+    [4,4,4,4,4],
+    [0,1,0,1,0],
+]
+
 
 function newBabyLeveret(garden){
     //returns the midpoint of the array as a tuple
@@ -143,3 +150,4 @@ function eatCarrots(location, garden){
 
 //run for debugging
 lunchCount(garden);
+lunchCount(garden2);
